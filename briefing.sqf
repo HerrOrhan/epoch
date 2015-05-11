@@ -124,6 +124,24 @@ player createDiaryRecord ["Changelog",
 "
 ]];
 
+player createDiaryRecord ["Changelog",
+[
+"06.05.2015",
+"
+<br/>updated to 0.3.0.3
+"
+]];
+
+player createDiaryRecord ["Changelog",
+[
+"11.05.2015",
+"
+<br/>Finally Anti-Hack update
+<br/>headless client missions updated
+<br/>some minor changes
+"
+]];
+
 player createDiaryRecord ["rules",
 [
 "v1",

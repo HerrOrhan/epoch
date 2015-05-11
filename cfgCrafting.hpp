@@ -103,7 +103,7 @@ class CfgCrafting
 	{
 		usedIn[] = {"KitShelf","ItemCorrugatedLg", "V_39_EPOCH"};
 		nearby[] = { { "fire", { "ALL" }, 3, 1, "Fire", "fire" } };
-		recipe[] = { { "ItemScraps", 2 } };
+		recipe[] = { { "ItemScraps", 2 },{ "ItemCorrugatedLg", 1 } };
 	};
 	class optic_LRPS : Default
 	{
@@ -299,7 +299,7 @@ class CfgCrafting
 	};
 	class ItemCorrugatedLg : Default
 	{
-		usedIn[] = { "VehicleRepairLg", "KitPlotPole" };
+		usedIn[] = { "VehicleRepairLg", "KitPlotPole", "ItemCorrugated" };
 		recipe[] = { { "ItemCorrugated", 3 } };
 	};
 	class PartPlankPack : Default

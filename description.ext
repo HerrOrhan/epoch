@@ -40,10 +40,14 @@ class CfgRemoteExecCommands {};
 #include "infiSTAR_AdminMenu.hpp"
 #include "outlw_magRepack\MagRepack_config.hpp"
 #include "CfgPricing.hpp"
+#include "cfgCrafting.hpp" 
 #include "CHVD\dialog.hpp"
 #include "epochconfig.hpp"
-#include "cfgCrafting.hpp" 
 class CfgFunctions
 {
 	#include "CHVD\CfgFunctions.hpp"
+};
+class CfgSounds
+{
+	#include "HC\Zombies\infectedsounds.hpp"
 };
